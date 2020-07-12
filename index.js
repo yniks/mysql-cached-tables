@@ -1,8 +1,8 @@
-if (process.env.NODE_ENV!='production')
+if (process.env.NODE_ENV != 'production')
     require('dotenv').config()
-const controller=require('./connector')
+const controller = require('./connector')
 /**
  * Description
  */
 
-module.exports=controller
+module.exports = controller
