@@ -1,0 +1,22 @@
+{
+  "name": "mysql-chached-tables",
+  "version": "1.0.0",
+  "description": "A mysql table controller supporting caching",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nikhileshofficial@gmail.com",
+  "license": "ISC",
+  "keywords": [
+    "cache",
+    "mysql",
+    "table"
+  ],
+  "dependencies": {
+    "promise-mysql": "^4.1.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
